@@ -1,7 +1,7 @@
 import React from "react";
 import KeyFeatures from "./key-features";
 import Heading from "./heading";
-import LoginButton from "./login-button";
+import LoginButton from "./button";
 
 const Hero = () => {
   return (
