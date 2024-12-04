@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Creatify",
-  description: "Built by subhash",
+  description: "Built by Rainbowfish",
 };
 
 export default function RootLayout({

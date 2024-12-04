@@ -2,6 +2,7 @@ import React from "react";
 import KeyFeatures from "./key-features";
 import Heading from "./heading";
 import LoginButton from "./button";
+import Testimonials from "./testimonials";
 
 const Hero = () => {
   return (
@@ -9,6 +10,7 @@ const Hero = () => {
       <KeyFeatures />
       <Heading />
       <LoginButton />
+      <Testimonials />
     </div>
   );
 };
