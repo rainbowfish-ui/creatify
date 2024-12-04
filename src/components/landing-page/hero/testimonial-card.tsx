@@ -23,18 +23,20 @@ const TestimonialCard = ({
           <Image
             src={image1}
             alt="web"
-            width={1}
-            height={1}
+            width={48}
+            height={48}
             className="size-full object-contain"
+            sizes="(max-width: 600px) 48px, (max-width: 1200px) 96px, 1200px"
           />
         </div>
         <div className="size-12 rounded-lg -rotate-6 bg-pink-200 overflow-hidden shadow-md">
           <Image
             src={image2}
             alt="web"
-            width={1}
-            height={1}
+            width={48}
+            height={48}
             className="size-full object-contain"
+            sizes="(max-width: 600px) 48px, (max-width: 1200px) 96px, 1200px"
           />
         </div>
       </div>
@@ -45,9 +47,10 @@ const TestimonialCard = ({
             <Image
               src={clientImage}
               alt="web"
-              width={1}
-              height={1}
+              width={24}
+              height={24}
               className="size-full object-contain"
+              sizes="(max-width: 600px) 48px, (max-width: 1200px) 96px, 1200px"
             />
           </div>
           <div>
