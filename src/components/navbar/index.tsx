@@ -41,7 +41,7 @@ const Navbar = () => {
             );
           })}
         </div>
-        <button className="bg-[#7C4BFF] border border-[#7C4BFF] hover:border-white transition-colors text-white px-4 py-1 rounded-lg shadow-sm shadow-[#7C4BFF]">
+        <button className="bg-foreground border border-foreground hover:border-white transition-colors text-white px-4 py-1 rounded-lg shadow-sm shadow-foreground">
           Register
         </button>
       </div>
