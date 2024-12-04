@@ -7,7 +7,7 @@ const Testimonials = () => {
       <TestimonialCard
         client="Subhash"
         clientImage="https://avatars.githubusercontent.com/u/64570322?v=4"
-        designation="Founder of Winu"
+        designation="Founder at Winu"
         image1="https://cdn.dribbble.com/userupload/17839818/file/original-f63423b05d2bc6af638499ebd024a045.png?resize=2048x1536&vertical=center"
         image2="https://cdn.dribbble.com/userupload/17853808/file/original-7970c9c304f23125e7d01fa9df818c73.png?resize=2048x1536&vertical=center"
         quote={`"Our websites are going live in just hours, all thanks to the efficiency of RainbowfishUI!"`}
