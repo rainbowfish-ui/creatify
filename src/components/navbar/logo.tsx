@@ -1,11 +1,11 @@
 import React from "react";
-import { GiFishingNet } from "react-icons/gi";
+import { RiLeafFill } from "react-icons/ri";
 
 const Logo = () => {
   return (
     <div className="flex items-center gap-1 drop-shadow-md">
-      <GiFishingNet size={20} />
-      <h1 className="font-semibold">Rainbowfish</h1>
+      <RiLeafFill />
+      <h1 className="font-semibold">Creatify</h1>
     </div>
   );
 };
