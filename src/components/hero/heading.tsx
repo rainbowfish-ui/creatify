@@ -15,8 +15,8 @@ const Heading = () => {
         Your launch partner
       </h1>
       <p>
-        The landing pages that help companies build trust <br /> with their
-        customers.
+        Ready to use landing pages designed to help companies build trust <br />{" "}
+        and strengthen connections with their customers.
       </p>
     </div>
   );

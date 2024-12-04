@@ -10,7 +10,7 @@ const Testimonials = () => {
         designation="Founder of Winu"
         image1="https://cdn.dribbble.com/userupload/17839818/file/original-f63423b05d2bc6af638499ebd024a045.png?resize=2048x1536&vertical=center"
         image2="https://cdn.dribbble.com/userupload/17853808/file/original-7970c9c304f23125e7d01fa9df818c73.png?resize=2048x1536&vertical=center"
-        quote={`"We launch our websites in hours, all thanks to RainbowfishUI"`}
+        quote={`"Our websites are going live in just hours, all thanks to the efficiency of RainbowfishUI!"`}
       />
       <TestimonialCard
         client="Melissa Tristan"
@@ -18,7 +18,7 @@ const Testimonials = () => {
         designation="Engineer at Asiaway"
         image1="https://cdn.dribbble.com/userupload/17853754/file/original-96c80dec6492c49b7b5d4594edb852ff.jpg?resize=2048x1536&vertical=center"
         image2="https://cdn.dribbble.com/userupload/17852780/file/original-19d2cef6b6efc3520a09c4e70033a355.png?resize=2048x1536&vertical=center"
-        quote={`"RainbowfishUI is a resource enriching platform"`}
+        quote={`"Rainbowfish is a platform that enhances resources and empowers productivity."`}
       />
     </div>
   );
