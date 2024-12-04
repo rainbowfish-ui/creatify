@@ -22,7 +22,7 @@ const navItems = [
 
 const NavItems = () => {
   return (
-    <div className="flex rounded-lg  backdrop-blur-md">
+    <div className="flex rounded-lg h-full items-center px-6 backdrop-blur-md">
       {navItems.map(({ name, route }) => {
         return (
           <Link
