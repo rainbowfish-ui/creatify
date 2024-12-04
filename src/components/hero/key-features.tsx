@@ -4,7 +4,7 @@ import { FaCheck } from "react-icons/fa6";
 const features = [
   "Designed by Experts",
   "Launch Quickly",
-  "Easy Customization",
+  "Built with Next.js and Tailwind",
 ];
 
 const KeyFeatures = () => {

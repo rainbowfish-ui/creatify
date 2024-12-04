@@ -1,7 +1,7 @@
 import React from "react";
 import NavItems from "./nav-items";
 import Logo from "./logo";
-import RegisterButton from "./register-button";
+import RegisterButton from "./explore-button";
 
 const Navbar = () => {
   return (
