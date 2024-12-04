@@ -1,7 +1,8 @@
-import Achievements from "@/components/achievements";
-import Benefits from "@/components/benefits";
-import Hero from "@/components/hero";
-import Navbar from "@/components/navbar";
+import Achievements from "@/components/landing-page/achievements";
+import Benefits from "@/components/landing-page/benefits";
+import Hero from "@/components/landing-page/hero";
+import Navbar from "@/components/landing-page/navbar";
+import Services from "@/components/landing-page/services";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Achievements />
+      <Services />
       <Benefits />
     </div>
   );
