@@ -41,7 +41,7 @@ const Navbar = () => {
             );
           })}
         </div>
-        <button className="bg-foreground border border-foreground hover:border-white transition-colors text-white px-4 py-1 rounded-lg shadow-sm shadow-foreground">
+        <button className="bg-foreground border border-foreground hover:scale-95 transition-transform text-white px-4 py-1 rounded-lg shadow-sm shadow-foreground">
           Register
         </button>
       </div>
