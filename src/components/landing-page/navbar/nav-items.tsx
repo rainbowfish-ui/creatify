@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { en } from "@/components/localization/en";
+import { en } from "@/localization/en";
 
 const lang = en;
 

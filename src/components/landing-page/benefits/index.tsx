@@ -6,7 +6,7 @@ import { ImMagicWand } from "react-icons/im";
 import { FaStudiovinari } from "react-icons/fa6";
 import { GiFastArrow, GiNinjaStar } from "react-icons/gi";
 import { RiAncientPavilionFill } from "react-icons/ri";
-import { en } from "@/components/localization/en";
+import { en } from "@/localization/en";
 
 const qwitcherGrypen = Qwitcher_Grypen({
   weight: ["400", "700"],

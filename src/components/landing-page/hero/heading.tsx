@@ -1,6 +1,6 @@
 import React from "react";
 import { Qwitcher_Grypen } from "next/font/google";
-import { en } from "@/components/localization/en";
+import { en } from "@/localization/en";
 
 const qwitcherGrypen = Qwitcher_Grypen({
   weight: ["400", "700"],
