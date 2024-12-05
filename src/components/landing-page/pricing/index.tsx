@@ -58,7 +58,7 @@ const pricing = [
 const Pricing = () => {
   return (
     <div
-      className="w-full flex-col min-h-screen h-full flex items-center bg-[#fafafa]"
+      className="w-full flex-col min-h-screen h-full flex items-center bg-[#fafafa] py-10"
       id="pricing"
     >
       <h2

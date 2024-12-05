@@ -1,5 +1,6 @@
 import Achievements from "@/components/landing-page/achievements";
 import Benefits from "@/components/landing-page/benefits";
+import Footer from "@/components/landing-page/footer";
 import Hero from "@/components/landing-page/hero";
 import Navbar from "@/components/landing-page/navbar";
 import Pricing from "@/components/landing-page/pricing";
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Benefits />
       <Pricing />
+      <Footer />
     </div>
   );
 }

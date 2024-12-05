@@ -3,20 +3,16 @@ import Link from "next/link";
 
 const navItems = [
   {
-    name: "How it works",
-    route: "#",
+    name: "Services",
+    route: "#services",
   },
   {
     name: "Benefits",
-    route: "#",
-  },
-  {
-    name: "Services",
-    route: "#",
+    route: "#benefits",
   },
   {
     name: "Pricing",
-    route: "#",
+    route: "#pricing",
   },
 ];
 
