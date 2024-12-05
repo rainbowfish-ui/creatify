@@ -6,7 +6,7 @@ const lang = en;
 
 const Testimonials = () => {
   return (
-    <div className="w-full flex items-center justify-center gap-6">
+    <div className="w-full flex items-center justify-center gap-6 max-md:flex-col max-md:gap-10 py-10">
       {lang.hero.testimonials.map(
         ({
           client,

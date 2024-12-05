@@ -21,9 +21,9 @@ const Footer = () => {
       className="w-full min-h-96 h-full flex items-center justify-center bg-[#FAFAFA]"
       id="footer"
     >
-      <div className="w-[80%] min-h-96 h-full bg-black rounded-t-xl text-white pt-4 px-4 flex flex-col gap-6">
+      <div className="w-[80%] max-lg:w-full min-h-96 h-full bg-black rounded-t-xl text-white pt-4 px-4 flex flex-col gap-6">
         <Heading />
-        <div className="w-full h-fit flex items-center justify-between px-10">
+        <div className="w-full h-fit flex items-center justify-between px-10 max-sm:flex-col max-sm:gap-6">
           {lang.footer.items.map(({ items, title }, idx) => {
             return (
               <Card
@@ -35,9 +35,9 @@ const Footer = () => {
           })}
         </div>
         <div
-          className={`w-full h-full flex items-center justify-center text-8xl ${audiowide.className} tracking-widest text-gray-400 uppercase`}
+          className={`w-full h-full flex items-center justify-center text-8xl ${audiowide.className} tracking-widest text-gray-400 uppercase max-sm:text-4xl`}
         >
-          <Icon size={100} />
+          <Icon className="max-sm:size-20 size-32" />
           {lang.brand.name}
         </div>
         <div className="w-full text-gray-400 flex items-center justify-between">

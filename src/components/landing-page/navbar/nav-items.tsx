@@ -6,7 +6,7 @@ const lang = en;
 
 const NavItems = () => {
   return (
-    <div className="flex rounded-lg h-full items-center px-6 backdrop-blur-md gap-2">
+    <div className="flex rounded-lg h-full items-center px-6 backdrop-blur-md gap-2 max-md:hidden">
       {lang.navbar.navItems.map(({ name, route }) => {
         return (
           <Link
