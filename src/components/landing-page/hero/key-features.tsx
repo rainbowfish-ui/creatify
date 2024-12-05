@@ -1,4 +1,4 @@
-import { en } from "@/components/localization/en";
+import { en } from "@/localization/en";
 import React from "react";
 import { FaCheck } from "react-icons/fa6";
 

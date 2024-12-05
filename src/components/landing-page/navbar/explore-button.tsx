@@ -1,4 +1,4 @@
-import { en } from "@/components/localization/en";
+import { en } from "@/localization/en";
 import Link from "next/link";
 import React from "react";
 

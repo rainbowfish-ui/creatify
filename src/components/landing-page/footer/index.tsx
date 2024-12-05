@@ -3,7 +3,7 @@ import Heading from "./heading";
 import Link from "next/link";
 import { Audiowide } from "next/font/google";
 import { RiLeafFill } from "react-icons/ri";
-import { en } from "@/components/localization/en";
+import { en } from "@/localization/en";
 import Card from "./card";
 
 const audiowide = Audiowide({
