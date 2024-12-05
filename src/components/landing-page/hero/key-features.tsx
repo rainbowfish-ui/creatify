@@ -9,7 +9,7 @@ const KeyFeatures = () => {
     <div className="w-full flex gap-4 justify-center">
       {lang.hero.highlights.map((feature) => {
         return (
-          <div className="flex items-center gap-1" key={feature}>
+          <div className="flex items-center gap-1" key={`key-${feature}`}>
             <div className="rounded-full p-0.5 border border-foreground">
               <FaCheck className="text-foreground" size={10} />
             </div>

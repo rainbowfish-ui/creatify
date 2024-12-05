@@ -12,6 +12,7 @@ const NavItems = () => {
           <Link
             href={route}
             className="px-2 py-1 hover:bg-gray-200 rounded-lg text-sm"
+            key={`nav-${name}`}
           >
             {name}
           </Link>

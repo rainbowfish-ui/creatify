@@ -33,7 +33,7 @@ const Benefits = () => {
               icon={icon}
               name={name}
               description={description}
-              key={name}
+              key={`benefits-${name}`}
             />
           );
         })}

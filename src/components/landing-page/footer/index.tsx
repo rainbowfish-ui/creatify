@@ -25,7 +25,13 @@ const Footer = () => {
         <Heading />
         <div className="w-full h-fit flex items-center justify-between px-10">
           {lang.footer.items.map(({ items, title }, idx) => {
-            return <Card links={items} title={title} key={`${idx}-${title}`} />;
+            return (
+              <Card
+                links={items}
+                title={title}
+                key={`footer-${idx}-${title}`}
+              />
+            );
           })}
         </div>
         <div
