@@ -13,11 +13,13 @@ const Heading = () => {
   return (
     <div className="size-full text-center flex flex-col gap-4 items-center">
       <h1
-        className={`${qwitcherGrypen.className} font-extrabold text-9xl drop-shadow-md`}
+        className={`${qwitcherGrypen.className} max-md:text-8xl font-extrabold text-9xl max-sm:text-6xl drop-shadow-md`}
       >
         {lang.hero.heading}
       </h1>
-      <p className="w-[40%]">{lang.hero.subheading}</p>
+      <p className="w-[40%] max-md:text-xs max-md:w-[80%]">
+        {lang.hero.subheading}
+      </p>
     </div>
   );
 };

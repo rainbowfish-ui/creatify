@@ -17,7 +17,7 @@ const TestimonialCard = ({
   clientImage: string;
 }) => {
   return (
-    <div className="w-80 h-40 flex items-center justify-center gap-4">
+    <div className="w-80 h-fit flex items-center justify-center gap-4">
       <div className="w-fit flex">
         <div className="size-12 rounded-lg rotate-6 bg-green-200 overflow-hidden shadow-md">
           <Image

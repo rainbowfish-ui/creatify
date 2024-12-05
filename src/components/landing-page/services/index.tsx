@@ -22,7 +22,7 @@ const Services = () => {
         >
           {lang.services.name}
         </h2>
-        <p className="text-gray-700">{lang.services.description}</p>
+        <p className="text-gray-700 text-center">{lang.services.description}</p>
       </div>
       <div className="w-[60%] min-h-96 grid lg:grid-cols-3 md:grid-cols-2 gap-2">
         {lang.services.items.map(({ description, image, name }) => {
