@@ -19,8 +19,8 @@ const navItems = [
     route: "#pricing",
   },
   {
-    name: "About",
-    route: "#about",
+    name: "Links",
+    route: "#footer",
   },
 ];
 

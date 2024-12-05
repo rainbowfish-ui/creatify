@@ -4,12 +4,12 @@ import { RiLeafFill } from "react-icons/ri";
 
 const Heading = () => {
   return (
-    <div className="w-full px-4 pt-4 flex items-center justify-between">
+    <div className="w-full flex items-center justify-between">
       <Link
         href="#home"
-        className="size-8 flex items-center justify-center rounded-full bg-[#fafafa] p-1 text-black transition-all hover:mt-1 drop-shadow-lg"
+        className="size-12 flex items-center justify-center rounded-full bg-[#fafafa] p-1 text-black transition-all hover:scale-[1.1] drop-shadow-lg"
       >
-        <RiLeafFill />
+        <RiLeafFill size={20} />
       </Link>
     </div>
   );
