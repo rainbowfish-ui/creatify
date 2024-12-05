@@ -1,5 +1,5 @@
 export const footer = {
-  copyright: "© 2025 Creatify Studio Limited",
+  copyright: `© ${new Date().getFullYear()} Rainbowfish Studio Limited`,
   items: [
     {
       title: "Studio",
