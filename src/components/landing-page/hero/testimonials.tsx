@@ -18,7 +18,7 @@ const Testimonials = () => {
         }) => {
           return (
             <TestimonialCard
-              key={client}
+              key={`testimonials-${client}`}
               client={client}
               clientImage={clientImage}
               designation={designation}
