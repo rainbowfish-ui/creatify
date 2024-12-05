@@ -48,7 +48,10 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="w-full flex-col min-h-screen h-fit flex items-center justify-center pb-20 gap-20 bg-[#fafafa]">
+    <div
+      className="w-full flex-col min-h-screen h-fit flex items-center justify-center py-20 gap-20 bg-[#fafafa]"
+      id="services"
+    >
       <div className="flex flex-col gap-2 items-center">
         <h2
           className={`${qwitcherGrypen.className} text-7xl font-semibold drop-shadow-lg`}

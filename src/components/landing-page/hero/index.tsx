@@ -6,7 +6,10 @@ import Testimonials from "./testimonials";
 
 const Hero = () => {
   return (
-    <div className="w-full min-h-96 h-fit flex flex-col items-center justify-start pt-16 gap-5">
+    <div
+      className="w-full min-h-96 h-fit flex flex-col items-center justify-start pt-16 gap-5"
+      id="hero"
+    >
       <KeyFeatures />
       <Heading />
       <LoginButton />

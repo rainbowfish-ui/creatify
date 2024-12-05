@@ -14,7 +14,7 @@ const Card = ({
   description: string;
 }) => {
   return (
-    <div className="w-80 h-full min-h-96 rounded-lg border shadow-md p-4">
+    <div className="w-80 h-full min-h-96 rounded-lg border shadow-md p-4 hover:scale-95 transition-transform">
       <h4 className="font-semibold pb-4">{type}</h4>
       <div className="size-full">
         <p className="text-xs">Starts at</p>

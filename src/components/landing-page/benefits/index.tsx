@@ -55,7 +55,10 @@ const benefits = [
 
 const Benefits = () => {
   return (
-    <div className="w-full flex-col min-h-60 h-fit flex items-center justify-center pb-20 gap-4">
+    <div
+      className="w-full flex-col min-h-60 h-fit flex items-center justify-center py-20 gap-4"
+      id="benefits"
+    >
       <h2
         className={`${qwitcherGrypen.className} text-7xl font-semibold drop-shadow-lg`}
       >
