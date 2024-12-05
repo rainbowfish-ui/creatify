@@ -1,23 +1,23 @@
 import React from "react";
 import { Qwitcher_Grypen } from "next/font/google";
+import { en } from "@/components/localization/en";
 
 const qwitcherGrypen = Qwitcher_Grypen({
   weight: ["400", "700"],
   subsets: ["latin"],
 });
 
+const lang = en;
+
 const Heading = () => {
   return (
-    <div className="size-full text-center flex flex-col gap-4">
+    <div className="size-full text-center flex flex-col gap-4 items-center">
       <h1
         className={`${qwitcherGrypen.className} font-extrabold text-9xl drop-shadow-md`}
       >
-        Your launch partner
+        {lang.hero.heading}
       </h1>
-      <p>
-        Ready to use landing pages designed to help companies build trust <br />{" "}
-        and strengthen connections with their customers.
-      </p>
+      <p className="w-[40%]">{lang.hero.subheading}</p>
     </div>
   );
 };

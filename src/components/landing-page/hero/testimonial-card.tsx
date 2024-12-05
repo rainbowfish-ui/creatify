@@ -26,7 +26,6 @@ const TestimonialCard = ({
             width={48}
             height={48}
             className="size-full object-contain"
-            sizes="(max-width: 600px) 48px, (max-width: 1200px) 96px, 1200px"
           />
         </div>
         <div className="size-12 rounded-lg -rotate-6 bg-pink-200 overflow-hidden shadow-md">
@@ -36,7 +35,6 @@ const TestimonialCard = ({
             width={48}
             height={48}
             className="size-full object-contain"
-            sizes="(max-width: 600px) 48px, (max-width: 1200px) 96px, 1200px"
           />
         </div>
       </div>
@@ -50,7 +48,6 @@ const TestimonialCard = ({
               width={24}
               height={24}
               className="size-full object-contain"
-              sizes="(max-width: 600px) 48px, (max-width: 1200px) 96px, 1200px"
             />
           </div>
           <div>
