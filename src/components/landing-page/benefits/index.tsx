@@ -64,7 +64,7 @@ const Benefits = () => {
       >
         Benefits
       </h2>
-      <div className="w-[70%] min-h-96 grid lg:grid-cols-3 md:grid-cols-2">
+      <div className="w-[70%] min-h-96 grid lg:grid-cols-3 md:grid-cols-2 gap-4">
         {benefits.map(({ description, icon, name }) => {
           return (
             <Card

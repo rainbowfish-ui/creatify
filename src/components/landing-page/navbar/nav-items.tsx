@@ -3,6 +3,10 @@ import Link from "next/link";
 
 const navItems = [
   {
+    name: "Home",
+    route: "#home",
+  },
+  {
     name: "Services",
     route: "#services",
   },
@@ -14,11 +18,15 @@ const navItems = [
     name: "Pricing",
     route: "#pricing",
   },
+  {
+    name: "About",
+    route: "#about",
+  },
 ];
 
 const NavItems = () => {
   return (
-    <div className="flex rounded-lg h-full items-center px-6 backdrop-blur-md">
+    <div className="flex rounded-lg h-full items-center px-6 backdrop-blur-md gap-2">
       {navItems.map(({ name, route }) => {
         return (
           <Link

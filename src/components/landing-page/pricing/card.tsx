@@ -34,7 +34,7 @@ const Card = ({
       <div className="size-full flex flex-col gap-2 py-2">
         {features.map((feature) => {
           return (
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2" key={feature}>
               <div className="p-0.5 rounded-full border border-foreground text-foreground">
                 <FaCheck size={10} />
               </div>
