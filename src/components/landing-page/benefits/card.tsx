@@ -17,7 +17,7 @@ const Card = ({
   description: string;
 }) => {
   return (
-    <div className="h-60 max-w-80 flex items-center justify-center flex-col gap-2 text-center">
+    <div className="h-60 w-full flex items-center justify-center flex-col gap-2 text-center">
       <Icon className="text-foreground" size={32} />
       <p className={`text-lg font-semibold ${audiowide.className}`}>{name}</p>
       <p className="text-gray-700">{description}</p>
